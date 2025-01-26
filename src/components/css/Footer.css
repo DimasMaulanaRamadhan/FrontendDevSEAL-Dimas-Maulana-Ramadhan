@@ -1,0 +1,149 @@
+/* Footer Styling */
+.footer {
+  background-color: #2C3C4D;
+  color: #ffffff;
+  padding: 40px 20px;
+  margin-top: auto;
+  margin-top: 5rem;
+}
+
+.footer .footer-section:first-child {
+  margin-right: 0px;
+}
+
+.footer .footer-telusuri {
+  margin: 0px;
+  margin-left: 13rem;
+}
+
+.footer .footer-bantuan {
+  margin: 0px;
+  margin-left: -6rem;
+}
+
+.footer .footer-berlangganan {
+  margin: 0px;
+  margin-left: -4rem;
+}
+
+.footerlogo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+  margin-bottom: 2rem;
+}
+
+.footerlogo img {
+  width: 200px;
+  height: auto;
+  max-width: 100%;
+  border-radius: 0px
+}
+
+.footer .container {
+  max-width: 90%px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.footer .footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 270px;
+  margin-top: 5px;
+}
+
+.footer-section h4 {
+  font-size: 1.5rem;
+  font-weight: semibold;
+  margin-bottom: 15px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 15px;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+  color: #1dcaff;
+}
+
+.footer-section .logo img {
+  width: 60px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.footerberita {
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.footerfollow {
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: semibold;
+}
+
+.footer-section .social-icons {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.footer-section .social-icons a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.footer-section .social-icons a:hover {
+  color: #1dcaff;
+}
+
+/* Subscription Form */
+.footer-section form {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-section form input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  flex: 1;
+}
+
+.footer-section form button {
+  background-color: #1dcaff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.footer-section form button:hover {
+  background-color: #138bbd;
+}

@@ -1,0 +1,178 @@
+/* Main Layout */
+.news-detail-layout {
+    margin-top: 70px; /* Adjust for fixed header */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 90%;
+    margin-left: 5%;
+}
+
+.news-detail-main {
+    display: flex;
+    gap: 20px;
+}
+
+.news-article {
+    flex: 3;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 70%;
+}
+
+.news-title {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.news-meta {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.news-pubDate {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.news-thumbnail {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.news-content {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #526071;
+    max-width: 90%;
+}
+
+.news-category {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.news-caption {
+  font-size: 1rem;
+  color: #959EA9;
+  margin-bottom: 2rem;
+  margin-top: -1rem;
+}
+
+/* Sidebar */
+.news-sidebar {
+  display: flex;
+  flex-direction: column;
+  margin-right: 2rem;
+}
+
+.popular-news {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.popular-news-item {
+  width: 100%;
+}
+
+.popular-news-item .card {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.popular-news-item .d-flex {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.popular-news-index {
+  min-width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.popular-news-item img {
+  width: 170px;
+  height: 140px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.news-content {
+  flex-grow: 1;
+}
+
+.card-title {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.items {
+  font-size: 0.8rem;
+}
+
+/* Related News */
+.related-news {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.related-news h2 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.related-news-item {
+    margin-bottom: 10px;
+}
+
+.related-news-link {
+    color: #007BFF;
+    font-size: 0.95rem;
+}
+
+.related-news-link:hover {
+    text-decoration: underline;
+}
+
+.listatas {
+  font-weight: semibold;
+  font-family: "Inter", sans-serif;
+  margin-top: 5.5rem;
+  padding-bottom: 3rem;
+  margin-left: 5rem;
+}
+
+.top-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  max-width: 73%;
+}
+
+.pisah {
+    margin-left: 1rem;
+}
+
+.lihat-semua {
+  display: flex;
+  align-items: center;
+  border: 1px solid #0090FF;
+  color: #0090FF ;
+  border-radius: 5px;
+  width: 135px;
+  height: 52px;
+  background-color: #E2F2FF;
+}

@@ -1,0 +1,98 @@
+/* Petualangan Edukatif */
+.educative-adventure-container {
+  background-color: #00CAA3;
+  color: #fff;
+  border-radius: 20px;
+  padding: 30px;
+  margin: 40px auto;
+  max-width: 90%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Baris Utama */
+.educative-adventure-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Konten Teks */
+.educative-adventure-text {
+  flex: 1;
+  text-align: left;
+}
+
+.educative-adventure-title {
+  font-size: 3rem;
+  font-weight: semibold;
+  margin-bottom: 10px;
+  max-width: 70%;
+  margin-left: 6rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.educative-adventure-description {
+  font-size: 1.2rem;
+  max-width: 60%;
+  margin-left: 6rem;
+}
+
+/* Gambar */
+.educative-adventure-image-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.educative-image-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.educative-image {
+  width: 500px;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  margin-right: 50px;
+}
+
+.educative-image:hover {
+  transform: scale(1.1);
+}
+
+.image-label {
+  font-size: 0.875rem;
+  margin-top: 5px;
+  color: #fff;
+}
+
+/* Carousel Dots */
+.carousel-dots {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: #ADB5BD;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 100px;
+}
+
+.dot.active {
+  background-color: #007BFF;
+}

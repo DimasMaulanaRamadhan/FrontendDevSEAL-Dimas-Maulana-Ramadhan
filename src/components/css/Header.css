@@ -1,0 +1,83 @@
+/* General Header Styles */
+.header {
+  background-color: #f8f9fa;
+  padding: 1rem 0;
+  border-bottom: 1px solid #ddd;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.header-scrolled {
+  background-color: #007bff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-kiri-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.2rem;
+}
+
+.text-kiri-image {
+  height: 40px;
+  width: 40px;
+}
+
+.text-kiri {
+  text-decoration: none;
+  color: #000000;
+  transition: color 0.3s;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.text-list {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.text-kanan {
+  text-decoration: none;
+  color: #6f6f6f;
+  transition: color 0.3s;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.text-kanan:hover,
+.text-kanan.active {
+  color: #007bff;
+}
+
+.header-scrolled .text-kanan,
+.header-scrolled .text-kanan.active {
+  color: #fff;
+}
+
+.header-scrolled .text-kanan:hover {
+  color: #e6e6e6;
+}
+
+.header-scrolled .text-kiri,
+.header-scrolled .text-kiri.active {
+  color: #fff;
+}
+
+.header-scrolled .text-kiri:hover {
+  color: #e6e6e6;
+}

@@ -1,0 +1,26 @@
+a {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0a58ca;
+}
+
+body {
+  margin: 0;
+  padding-top: 4rem;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+.card {
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  color: #007bff;
+}
