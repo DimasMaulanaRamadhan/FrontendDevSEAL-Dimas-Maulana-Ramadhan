@@ -77,7 +77,7 @@ export default function NewsDetail() {
         }
 
         const htmlResponse = await axios.get(
-          `https://thingproxy.freeboard.io/fetch/${selectedNews.link}`
+          `https://api.allorigins.win/raw?url=${selectedNews.link}`
         );
 
         const html = htmlResponse.data;

@@ -2,11 +2,5 @@
   "rewrites": [
     { "source": "/berita/:slug", "destination": "/index.html" },
     { "source": "/:path*", "destination": "/index.html" }
-  ],
-  "routes": [
-    {
-      "src": "/berita/[slug]",
-      "dest": "/"
-    }
   ]
 }
