@@ -43,6 +43,7 @@ export default function NewsDetail() {
     const fetchNewsDetail = async () => {
       setLoadingNews(true);
       try {
+        // Fetch ALL news from all categories
         const responses = await Promise.allSettled(
           categoriesList.map((category) =>
             axios.get(
@@ -57,7 +58,13 @@ export default function NewsDetail() {
             response.status === "fulfilled" &&
             response.value?.data?.data?.posts
           ) {
-            newsList = [...newsList, ...response.value.data.data.posts];
+            newsList = [
+              ...newsList,
+              ...response.value.data.data.posts.map((post) => ({
+                ...post,
+                fullSlug: createSlug(post.title),
+              })),
+            ];
           }
         });
 
