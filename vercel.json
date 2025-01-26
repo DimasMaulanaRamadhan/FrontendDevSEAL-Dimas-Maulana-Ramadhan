@@ -1,0 +1,3 @@
+{
+  "rewrites": [{ "source": "/berita/:slug", "destination": "/index.html" }]
+}
